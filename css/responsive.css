@@ -1,0 +1,130 @@
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1100px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-menu ul li {
+        margin-right: 30px;
+    }
+
+    .main-menu ul li .megamenu {
+        width: 845px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .single-slider {
+        height: 400px;
+    }
+    .footer-menu ul li {
+        margin-right: 16px;
+    }
+    .footer-icon a {
+        margin-right: 10px;
+    }
+    .main-menu ul {
+        display: none;
+    }
+    .logo.text-center a {
+        position: relative;
+        top: 65px;
+    }
+    .mean-bar::before {
+        content: "MENU";
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+
+    
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    .main-menu ul {
+        display: none;
+    }
+    
+    .header-right ul li {
+        margin-left: 18px;
+    }
+    .logo {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .single-slider {
+        height: 410px;
+    }
+    .slider-content h3 {
+        font-size: 25px;
+    }
+    .slider-content {
+        padding-left: 45px;
+    }
+    .subscriber-form form input {
+        width: 86%;
+    }
+    .footer-menu ul {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+
+.single-subscriber {
+    padding-top: 41px;
+    padding-bottom: 40px;
+}
+
+.subscriber-form form input {
+	margin-bottom: 20px;
+}
+.product-tab ul li {
+	margin-right: 5px;
+}
+
+.product-tab .nav li a {
+	padding: 5px;
+}
+
+.mean-bar::before {
+	content: "MENU";
+	position: absolute;
+	top: 12px;
+	left: 12px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
